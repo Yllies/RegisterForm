@@ -27,7 +27,7 @@ const Register = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(name);
+    console.log(props.handle);
   };
 
   return (
