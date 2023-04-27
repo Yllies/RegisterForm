@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const Input = (props) => {
   return (
     <>
@@ -6,6 +8,7 @@ const Input = (props) => {
         type={props.type}
         placeholder={props.placeholder}
         value={props.value}
+        onChange={props.handle}
       ></input>
     </>
   );
